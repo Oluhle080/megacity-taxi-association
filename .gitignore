@@ -1,0 +1,27 @@
+# Ignore local environment and temporary files
+*.log
+*.tmp
+*.cache
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor folders
+.vscode/
+.idea/
+
+# Ignore Node and dependency folders if present
+node_modules/
+vendor/
+
+# Ignore local database dumps from accidental commits
+*.sql
+
+# Ignore zipped backups
+*.zip
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
